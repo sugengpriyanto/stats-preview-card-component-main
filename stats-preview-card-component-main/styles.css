@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    width: 80vw;
+    width: 75vw;
     margin-top: 15vh;
 }
 
@@ -57,7 +57,7 @@ body {
 .card-heading {
     color: var(--mainHeadingandStats);
     margin: 0 0 2em 0;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .insight {
@@ -67,21 +67,21 @@ body {
 .card-container {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--mainParagraph);
-    margin: 0.5em 0 0.75em 0;
+    margin: 0.5em 0 0.65em 0;
     line-height: 190%;
 }
 
 .card-footer {
     display: flex;
     justify-content: space-between;
-    margin: 3em 0 0 0;
+    margin: 2.5em 0 0 0;
 }
 
 .stats {
     color: var(--mainHeadingandStats);
     font-size: 1.5em;
     font-weight: 700;
-    margin: 0 0 0.1em 0;
+    margin: 0 0 0.15em 0;
 }
 
 .statsheading {
@@ -90,10 +90,10 @@ body {
 }
 
 .card-img {
+    background: url("./images/image-header-desktop.jpg");
+    background-size: contain;
     position: relative;
-}
-
-.card-img img {
+    background-repeat: no-repeat;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -109,4 +109,10 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     opacity: 0.4;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 400px) {
+    
 }
