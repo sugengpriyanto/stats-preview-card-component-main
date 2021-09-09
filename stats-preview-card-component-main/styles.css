@@ -24,7 +24,7 @@ body {
 
 .container {
     width: 75vw;
-    margin-top: 15vh;
+    margin-top: 17vh;
 }
 
 .card {
@@ -91,7 +91,7 @@ body {
 
 .card-img {
     background: url("./images/image-header-desktop.jpg");
-    background-size: contain;
+    background-size: cover;
     position: relative;
     background-repeat: no-repeat;
     border-top-right-radius: 15px;
@@ -113,6 +113,21 @@ body {
 
 
 /*Responsive*/
-@media screen and (max-width: 400px) {
-    
+@media screen and (max-width: 600px) {
+    .card {
+        flex-direction: column-reverse;
+    }
+
+    .card-img {
+        background: url("./images/image-header-mobile.jpg");
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .container {
+        width: 90vw;
+    }
 }
